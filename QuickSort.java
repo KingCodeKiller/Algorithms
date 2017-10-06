@@ -7,6 +7,21 @@ public class QuickSort {
 		printOut(arr);
 	}
 	
+	public static void printOut(int[] arr) {
+		for(int x : arr) {
+			System.out.print(x + ",");
+		}
+	}
+	
+	/*-----------------------------------------------------------------------------*/
+	/*                            Sorting Algorithm                                */
+	/*-----------------------------------------------------------------------------*/
+	/* Description: Use the pivot point and move the element <= pivot to left and >= pivot to right
+	 * Best Time: T(n) = O(n log n)
+	 * WorstTime: T(n) = O(n^2)
+	 * Average  : T(n) = O(n log n)
+	 */
+	
 	public static void quickSort(int[] arr, int left, int right) {
 		if(left >= right)
 			return;
@@ -34,11 +49,5 @@ public class QuickSort {
 			}
 		}
 		return left;
-	}
-	
-	public static void printOut(int[] arr) {
-		for(int x : arr) {
-			System.out.print(x + ",");
-		}
 	}
 }
