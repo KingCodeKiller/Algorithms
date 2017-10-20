@@ -4,4 +4,5 @@ Integer[] num = list.toArray(new Integer[list.size()]);
 //String -> char array
 char[] chr = s.toCharArray();
 
-//
+//Array -> HashSet
+Set<T> mySet = new HashSet<T>(Arrays.asList(someArray));
