@@ -18,3 +18,6 @@ String str[]=s.substring(1,a.length()-1).split(", ");
 String a = "cool"
 a = a.replace("o","");
 a -> cl;
+
+//Loop through HashMap based on key
+for (Element key : map.keySet()) 
