@@ -6,3 +6,6 @@ char[] chr = s.toCharArray();
 
 //Array -> HashSet
 Set<T> mySet = new HashSet<T>(Arrays.asList(someArray));
+
+//String array -> String
+String str = Arrays.toString(arr);
