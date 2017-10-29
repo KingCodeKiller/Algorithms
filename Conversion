@@ -11,4 +11,10 @@ Set<T> mySet = new HashSet<T>(Arrays.asList(someArray));
 String str = Arrays.toString(arr);
 
 //Int array -> String array
-String str = Arrays.toString(nums);
+String s = Arrays.toString(nums);
+String str[]=s.substring(1,a.length()-1).split(", ");
+
+//How to remove an element from string
+String a = "cool"
+a = a.replace("o","");
+a -> cl;
