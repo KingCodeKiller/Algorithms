@@ -9,3 +9,6 @@ Set<T> mySet = new HashSet<T>(Arrays.asList(someArray));
 
 //String array -> String
 String str = Arrays.toString(arr);
+
+//Int array -> String array
+String str = Arrays.toString(nums);
