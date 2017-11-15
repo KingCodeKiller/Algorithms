@@ -51,7 +51,7 @@ public class MergeSort {
 				temp[k++] = arr[right++];
 		}
 		
-        while(left <= leftEnd) {
+        	while(left <= leftEnd) {
 			temp[k++] = arr[left++];
 		}
 		
