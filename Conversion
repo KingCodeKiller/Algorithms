@@ -14,6 +14,16 @@ String str = Arrays.toString(arr);
 String s = Arrays.toString(nums);
 String str[]=s.substring(1,a.length()-1).split(", ");
 
+//char -> int
+Character.getNumericValue(c);
+
+//int -> char
+int a = 1;
+char b = (char)(a + '0');
+
+// convert array to LinkedList
+LinkedList ll = new LinkedList(Arrays.asList(sa));
+
 //How to remove an element from string
 String a = "cool"
 a = a.replace("o","");
